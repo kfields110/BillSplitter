@@ -9,5 +9,5 @@ class FlatMate:
         self.days_spent = days_spent
 
     def pays(self, bill, flatmate2):
-        amount_owed = (self.days_spent / (self.days_spent + flatmate2.days_spent)) * bill
+        amount_owed = (self.days_spent / (self.days_spent + flatmate2.days_spent)) * bill.amount
         return amount_owed
